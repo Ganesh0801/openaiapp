@@ -1,0 +1,28 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 25px;
+  margin-top: 10px;
+}
+.logo .Logo{
+    width: 100px;
+}
+.listItem{
+    height: 500px;
+}
+
+.theme{
+    width: 60px;
+  height: 35px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+.theme  .switch1{
+    height: 100%;
+    width: 100%;
+}

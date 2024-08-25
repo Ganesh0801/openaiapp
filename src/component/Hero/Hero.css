@@ -1,0 +1,54 @@
+.mainframe{
+    width: 465px;
+    height: 600px;
+    border: 1px solid rgba(18, 18, 18, 0.174);
+    border-radius: 5px;
+    margin: 20px;
+    background: linear-gradient(
+        rgba(131, 96, 195, 1), /* Start color */
+        rgba(46, 191, 145, 1)  /* End color */
+    );
+}
+.small{
+    margin: 35px auto;
+    width: 340px;
+    height: 500px;
+    border: 1px solid rgba(12, 12, 12, 0.03);
+    border-radius: 5px;
+    background-color: 
+    rgba(12, 78, 95, 0.25);
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    top: 15px;
+    left: 15px;
+    
+}
+.text{
+    color: rgba(255, 255, 255, 1);
+
+    font-weight: 600;
+    font-size: 34px;
+    margin-top: 80px;
+    margin-left:3px;
+
+}
+.girl{
+    position: absolute;
+    width: 200px;
+    height: 260px;
+    bottom: 0;
+    right: 0;
+}
+
+.switch{
+    width: 45px;
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

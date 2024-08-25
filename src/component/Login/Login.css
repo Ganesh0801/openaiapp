@@ -1,0 +1,122 @@
+.logoCon{
+    width: 
+    350px;
+    height: 550px;
+   
+    position: relative;
+}
+.heading{
+    width: 100%;
+    height: 100px;
+   
+    display: flex;
+    flex-direction: column;
+}
+.heading span:first-child{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.heading .last{
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+   
+}
+
+.LogImg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.LogImg img{
+    width: 170px;
+    height: 30px;
+}
+
+.formCon{
+    width: 350px;
+    height: 280px;
+    border: 1px solid rgba(20, 3, 3, 0.132);
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 5px;
+   
+}
+.inp label{
+   margin-top: 20px;
+   font-size: 16px;
+   color: white;
+   font-weight: 600;
+}
+
+.inp input{
+    width: 90%;
+    height: 26px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color:  rgba(22, 22, 22, 1);
+    color: white;
+    padding-left: 8px;
+}
+.divfor{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.forget{
+    color:  rgba(73, 121, 217, 1);
+    font-weight: 600;
+    font-size: 16px;
+}
+.button{
+    width: 86%;
+   margin:15px auto;
+   
+}
+.button button{
+    width: 100%;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    background-color:rgba(96, 91, 255, 1) ;
+    color: black;
+}
+h1{
+    text-align: center;
+    width:350px;
+    height: 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.icons{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-evenly;
+    gap: -30px;
+   
+}
+.icons img{
+    width: 35px;
+    height: 35px;
+}
